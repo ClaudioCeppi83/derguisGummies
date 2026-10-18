@@ -1,0 +1,25 @@
+{
+  "hosting": {
+    "public": "dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/media/raw-clips/**",
+      "**/media/scroll/master-scroll.mp4",
+      "**/media/scroll/master-scroll.webm",
+      "**/media/scroll/concat_list.txt"
+    ],
+    "headers": [
+      {
+        "source": "/media/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -10,6 +10,7 @@
     "clips:dry": "node .agents/skills/build-scroll-world-landing/scripts/02-generate-clips.js --dry-run",
     "clips:spike": "node .agents/skills/build-scroll-world-landing/scripts/02-generate-clips.js --spike 1",
     "clips:all": "node .agents/skills/build-scroll-world-landing/scripts/02-generate-clips.js --all",
+    "clips:local": "node .agents/skills/build-scroll-world-landing/scripts/02-generate-clips.js --local-ffmpeg",
     "encode:scroll": "bash .agents/skills/build-scroll-world-landing/scripts/03-encode-scroll.sh ./public/media/raw-clips ./public/media/scroll",
     "deploy": "npm run build && npx firebase-tools deploy --only hosting"
   },

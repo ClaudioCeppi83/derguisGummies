@@ -8,6 +8,13 @@ dist/
 .astro/
 .output/
 
+# Heavy intermediate media & local Drive backup
+assets/
+**/media/raw-clips/**
+**/media/scroll/master-scroll.mp4
+**/media/scroll/master-scroll.webm
+**/media/scroll/concat_list.txt
+
 # Environment variables & secrets
 .env
 .env.*
@@ -26,10 +33,8 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Firebase cache & config (future use)
+# Firebase cache & logs
 .firebase/
-.firebaserc
-firebase.json
 firebase-debug.log*
 firestore-debug.log*
 ui-debug.log*
