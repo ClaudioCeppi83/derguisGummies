@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build & Framework outputs
+dist/
+.astro/
+.output/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & OS files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+*.local
+
+# Editor directories
+.vscode/
+.idea/
+
+# Firebase cache & config (future use)
+.firebase/
+.firebaserc
+firebase.json
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
